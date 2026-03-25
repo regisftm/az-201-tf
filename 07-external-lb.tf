@@ -67,8 +67,8 @@ resource "azurerm_public_ip" "elbpip" {
   
   # domain_name_label: Creates a DNS name for easier access
   # Full FQDN will be: <label>.<region>.cloudapp.azure.com
-  # Example: rw-az201-lb-pip.canadacentral.cloudapp.azure.com
-  domain_name_label   = format("%s-%s", lower(var.prefix), "lb-pip")
+  # Example: rw-az201-elb-pip.canadacentral.cloudapp.azure.com
+  domain_name_label   = format("%s-%s", lower(var.prefix), "elb-pip")
 }
 
 
