@@ -39,7 +39,7 @@ variable "prefix" {
   # - Group related resources together
   # - Easily identify resources belonging to this deployment
   description = "Added name to each deployed resource"
-  default = "rw-az201"
+  default = "rw-az201-sxx"
 }
 
 variable "location" {
